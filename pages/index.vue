@@ -4,7 +4,7 @@
   >
     <div class="flex justify-center">
       <form @submit.prevent="handleSubmit" class="mx-auto my-4">
-        <input v-model="inputPlace" type="text" placeholder="输入城市或省名" />
+        <input class="mb-2 w-72 appearance-none p-2 bg-gray-100 border border-gray-200 text-gray-700 rounded leading-tight focus:outline-none focus:bg-white focus:border-teal-300 md:w-104" v-model="inputPlace" type="text" placeholder="输入城市或省名" />
       </form>
     </div>
 
