@@ -1,0 +1,8 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.falf-screen {
+  min-height: 50vh;
+  min-width: 50vw;
+}
